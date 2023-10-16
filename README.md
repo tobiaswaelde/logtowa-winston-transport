@@ -1,4 +1,13 @@
 # CloudLogger Winston Transport
+<!-- #region badges -->
+[![Quality Gate Status](https://sq.srv.tobiaswaelde.com/api/project_badges/measure?project=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I&metric=alert_status&token=sqb_535123a55d6922bb41e632e468b711314b35d254)](https://sq.srv.tobiaswaelde.com/dashboard?id=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I)
+[![Maintainability Rating](https://sq.srv.tobiaswaelde.com/api/project_badges/measure?project=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I&metric=sqale_rating&token=sqb_535123a55d6922bb41e632e468b711314b35d254)](https://sq.srv.tobiaswaelde.com/dashboard?id=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I)
+[![Security Rating](https://sq.srv.tobiaswaelde.com/api/project_badges/measure?project=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I&metric=security_rating&token=sqb_535123a55d6922bb41e632e468b711314b35d254)](https://sq.srv.tobiaswaelde.com/dashboard?id=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I)
+[![Vulnerabilities](https://sq.srv.tobiaswaelde.com/api/project_badges/measure?project=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I&metric=vulnerabilities&token=sqb_535123a55d6922bb41e632e468b711314b35d254)](https://sq.srv.tobiaswaelde.com/dashboard?id=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I)
+[![Bugs](https://sq.srv.tobiaswaelde.com/api/project_badges/measure?project=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I&metric=bugs&token=sqb_535123a55d6922bb41e632e468b711314b35d254)](https://sq.srv.tobiaswaelde.com/dashboard?id=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I)
+[![Duplicated Lines (%)](https://sq.srv.tobiaswaelde.com/api/project_badges/measure?project=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I&metric=duplicated_lines_density&token=sqb_535123a55d6922bb41e632e468b711314b35d254)](https://sq.srv.tobiaswaelde.com/dashboard?id=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I)
+<!-- #endregion -->
+
 This package provides a transport constructor to connect to the [CloudLogger]() backend.
 
 [CloudLogger]() is a simple self hosted service which helps you keeping track of your logs in a simple and clear web UI.
