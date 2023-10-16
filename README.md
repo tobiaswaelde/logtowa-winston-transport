@@ -15,11 +15,11 @@ This package provides a transport constructor to connect to the [CloudLogger]() 
 ## Installation
 ### Yarn
 ```sh
-yarn add cloud-logger-winston-transport
+yarn add cloud-logger-transport
 ```
 ### NPM
 ```sh
-npm install cloud-logger-winston-transport
+npm install cloud-logger-transport
 ```
 
 ## Usage
