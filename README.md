@@ -30,7 +30,7 @@ npm install cloud-logger-transport
 The constructor of the transports needs to know how to connect to the backend. This information includes the backend URL, your API token and the project key.
 
 ```ts
-import { CloudLoggerTransport } from 'cloud-logger-winston-transport';
+import { CloudLoggerTransport } from 'cloud-logger-transport';
 import winston from 'winston'
 
 // This information can be found in the web UI
