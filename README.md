@@ -36,13 +36,13 @@ import winston from 'winston'
 // This information can be found in the web UI
 const HOST = 'https://your-api-endpoint';
 const API_TOKEN = 'your-api-token';
-const PROJECT_KEY = 'project-key';
+const APP_KEY = 'app-key';
 
 // create the transport
 const cloudLoggerTransport = new CloudLoggerTransport({
   host: HOST,
   token: API_TOKEN,
-  projectKey: PROJECT_KEY,
+  appKey: APP_KEY,
 });
 
 // create the logger

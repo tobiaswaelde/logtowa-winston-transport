@@ -3,7 +3,7 @@
  */
 export type LogMessage = {
 	/** The project key. */
-	projectKey: string;
+	appKey: string;
 
 	/** The log level. */
 	level: string;

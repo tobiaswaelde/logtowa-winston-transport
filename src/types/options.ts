@@ -17,5 +17,5 @@ export type CloudLoggerOptions = TransportStreamOptions & {
 	/**
 	 * The project key of the project to which the logger should send the logs.
 	 */
-	projectKey: string;
+	appKey: string;
 };

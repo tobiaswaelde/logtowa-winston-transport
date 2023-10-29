@@ -24,7 +24,7 @@ export class CloudLoggerTransport extends Transport {
 			transports: ['websocket'],
 			auth: {
 				token: options.token,
-				projectkey: options.projectKey,
+				appkey: options.appKey,
 			},
 		}).on('error', (error) => {
 			throw new CloudLoggerTransportError('Could not connect to the CloudLogger backend: ' + error);
@@ -64,7 +64,7 @@ export class CloudLoggerTransport extends Transport {
 		}
 
 		return {
-			projectKey: this.options.projectKey,
+			appKey: this.options.appKey,
 			level: level,
 			scope: scope,
 			message: message,
