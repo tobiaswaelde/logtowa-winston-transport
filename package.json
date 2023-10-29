@@ -1,7 +1,7 @@
 {
   "name": "cloud-logger-transport",
   "description": "Winston transport function for CloudLogger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "out/index.js",
   "repository": "git@github.com:tobiaswaelde/cloud-logger-transport.git",
   "author": {
