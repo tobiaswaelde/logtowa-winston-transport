@@ -47,7 +47,7 @@ const cloudLoggerTransport = new CloudLoggerTransport({
 
 // create the logger
 const logger = winston.createLogger({
-	transports: [ cloudLoggerTransport ],
+  transports: [ cloudLoggerTransport ],
 });
 ```
 
