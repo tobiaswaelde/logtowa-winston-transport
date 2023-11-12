@@ -1,4 +1,4 @@
-# CloudLogger Winston Transport
+# LogTowa Winston Transport
 
 <!-- #region badges -->
 [![Quality Gate Status](https://sq.srv.tobiaswaelde.com/api/project_badges/measure?project=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I&metric=alert_status&token=sqb_535123a55d6922bb41e632e468b711314b35d254)](https://sq.srv.tobiaswaelde.com/dashboard?id=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I)
@@ -12,25 +12,25 @@
 > [!WARNING]  
 > This project is still in development. It will be usable as soon as it reaches v1.x
 
-This package provides a transport constructor to connect to the [CloudLogger]() backend.
+This package provides a transport constructor to connect to the [LogTowa]() backend.
 
-[CloudLogger]() is a simple self hosted service which helps you keeping track of your logs in a simple and clear web UI.
+[LogTowa]() is a simple self hosted service which helps you keeping track of your logs in a simple and clear web UI.
 
 ## Installation
 ### Yarn
 ```sh
-yarn add cloud-logger-transport
+yarn add logtowa-winston-transport
 ```
 ### NPM
 ```sh
-npm install cloud-logger-transport
+npm install logtowa-winston-transport
 ```
 
 ## Usage
 The constructor of the transports needs to know how to connect to the backend. This information includes the backend URL, your API token and the project key.
 
 ```ts
-import { CloudLoggerTransport } from 'cloud-logger-transport';
+import { LogTowaTransport } from 'logtowa-winston-transport';
 import winston from 'winston'
 
 // This information can be found in the web UI
@@ -39,7 +39,7 @@ const API_TOKEN = 'your-api-token';
 const APP_KEY = 'app-key';
 
 // create the transport
-const cloudLoggerTransport = new CloudLoggerTransport({
+const logtowaTransport = new LogTowaTransport({
   host: HOST,
   token: API_TOKEN,
   appKey: APP_KEY,
@@ -47,7 +47,7 @@ const cloudLoggerTransport = new CloudLoggerTransport({
 
 // create the logger
 const logger = winston.createLogger({
-  transports: [ cloudLoggerTransport ],
+  transports: [ logtowaTransport ],
 });
 ```
 
