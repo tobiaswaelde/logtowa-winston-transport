@@ -1,13 +1,13 @@
-import { CloudLoggerTransportError } from './types/error';
-import { CloudLoggerOptions } from './types/options';
-import { CloudLoggerTransport } from './transport';
+import { LogTowaTransportError } from './types/error';
+import { LogTowaOptions } from './types/options';
+import { LogTowaTransport } from './transport';
 
-export default CloudLoggerTransport;
+export default LogTowaTransport;
 
 export {
 	// main
-	CloudLoggerTransport,
+	LogTowaTransport,
 	// types
-	CloudLoggerOptions,
-	CloudLoggerTransportError,
+	LogTowaOptions,
+	LogTowaTransportError,
 };

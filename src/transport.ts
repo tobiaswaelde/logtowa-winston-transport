@@ -1,22 +1,22 @@
 import { Socket, io } from 'socket.io-client';
 import Transport from 'winston-transport';
 import { LogMessage } from './types/log-message';
-import { CloudLoggerTransportError } from './types/error';
-import { CloudLoggerOptions } from './types/options';
+import { LogTowaTransportError } from './types/error';
+import { LogTowaOptions } from './types/options';
 
 /**
- * Winston transport which automatically connects to the CloudLogger backend.
+ * Winston transport which automatically connects to the LogTowa backend.
  *
  * All logs will be send to the backend.
  */
-export class CloudLoggerTransport extends Transport {
+export class LogTowaTransport extends Transport {
 	private client: Socket;
 
 	/**
-	 * Creates a new CloudLoggerTransport instance.
-	 * @param {CloudLoggerOptions} options The options.
+	 * Creates a new LogTowaTransport instance.
+	 * @param {LogTowaOptions} options The options.
 	 */
-	constructor(private readonly options: CloudLoggerOptions) {
+	constructor(private readonly options: LogTowaOptions) {
 		super(options);
 
 		this.client = io(options.host, {
@@ -27,7 +27,7 @@ export class CloudLoggerTransport extends Transport {
 				appkey: options.appKey,
 			},
 		}).on('error', (error) => {
-			throw new CloudLoggerTransportError('Could not connect to the CloudLogger backend: ' + error);
+			throw new LogTowaTransportError('Could not connect to the LogTowa backend: ' + error);
 		});
 	}
 

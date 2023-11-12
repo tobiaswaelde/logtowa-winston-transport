@@ -1,9 +1,9 @@
 {
-  "name": "cloud-logger-transport",
-  "description": "Winston transport function for CloudLogger",
+  "name": "logtowa-winston-transport",
+  "description": "Winston transport function for LogTowa",
   "version": "0.1.2",
   "main": "out/index.js",
-  "repository": "git@github.com:tobiaswaelde/cloud-logger-transport.git",
+  "repository": "git@github.com:tobiaswaelde/logtowa-winston-transport.git",
   "author": {
     "name": "Tobias Wälde",
     "email": "tobias.waelde@gmail.com",

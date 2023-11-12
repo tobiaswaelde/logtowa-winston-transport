@@ -1,7 +1,7 @@
-export class CloudLoggerTransportError extends Error {
+export class LogTowaTransportError extends Error {
 	constructor(message: string) {
 		super(message);
-		Object.setPrototypeOf(this, CloudLoggerTransportError.prototype);
-		this.name = 'CloudLoggerTransportError';
+		Object.setPrototypeOf(this, LogTowaTransportError.prototype);
+		this.name = 'LogTowaTransportError';
 	}
 }

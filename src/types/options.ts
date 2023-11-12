@@ -1,11 +1,11 @@
 import { TransportStreamOptions } from 'winston-transport';
 
 /**
- * The options to configure the CloudLogger transport.
+ * The options to configure the LogTowa transport.
  */
-export type CloudLoggerOptions = TransportStreamOptions & {
+export type LogTowaOptions = TransportStreamOptions & {
 	/**
-	 * The URL to the CloudLogger backend.
+	 * The URL to the LogTowa backend.
 	 */
 	host: string;
 
