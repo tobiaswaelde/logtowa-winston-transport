@@ -12,7 +12,7 @@
 > [!WARNING]  
 > This project is still in development. It will be usable as soon as it reaches v1.x
 
-This package provides a transport constructor to connect to the [LogTowa]() backend.
+This package provides a transport constructor to connect to the [LogTowa](https://github.com/tobiaswaelde/logtowa-app) backend.
 
 [LogTowa](https://github.com/tobiaswaelde/logtowa-app) is a simple self hosted service which helps you keeping track of your logs in a simple and clear web UI.
 
@@ -56,11 +56,13 @@ There are several ways how you can log a message. You can add metadata which pro
 ### Basic Log Message
 ```ts
 logger.info('Hello world.');
+logger.log('info', 'Hello world.');
 ```
 
 ### Log Message with metadata
 ```ts
 logger.info('User signed in.', { name: 'Tobias', age: 24 });
+logger.log('info', 'User signed in.', { name: 'Tobias', age: 24 });
 ```
 
 ### Log Message with scope
