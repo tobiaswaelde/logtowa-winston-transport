@@ -9,9 +9,6 @@
 [![Duplicated Lines (%)](https://sq.srv.tobiaswaelde.com/api/project_badges/measure?project=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I&metric=duplicated_lines_density&token=sqb_535123a55d6922bb41e632e468b711314b35d254)](https://sq.srv.tobiaswaelde.com/dashboard?id=tobiaswaelde_cloud-logger-transport_AYs2E0L3PhYnLbS8eM8I)
 <!-- #endregion -->
 
-> [!WARNING]  
-> This project is still in development. It will be usable as soon as it reaches v1.x
-
 This package provides a transport constructor to connect to the [LogTowa](https://github.com/tobiaswaelde/logtowa-app) backend.
 
 [LogTowa](https://github.com/tobiaswaelde/logtowa-app) is a simple self hosted service which helps you keeping track of your logs in a simple and clear web UI.

@@ -1,7 +1,7 @@
 {
   "name": "logtowa-winston-transport",
   "description": "Winston transport function for LogTowa",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "main": "out/index.js",
   "repository": "git@github.com:tobiaswaelde/logtowa-winston-transport.git",
   "author": {
