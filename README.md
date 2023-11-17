@@ -14,7 +14,7 @@
 
 This package provides a transport constructor to connect to the [LogTowa]() backend.
 
-[LogTowa]() is a simple self hosted service which helps you keeping track of your logs in a simple and clear web UI.
+[LogTowa](https://github.com/tobiaswaelde/logtowa-app) is a simple self hosted service which helps you keeping track of your logs in a simple and clear web UI.
 
 ## Installation
 ### Yarn
